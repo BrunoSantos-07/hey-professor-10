@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Question;
 
 use App\Http\Controllers\Controller;
 use App\Models\Question;
-use Illuminate\Http\{RedirectResponse, Response};
+use Illuminate\Http\{RedirectResponse};
 
 class PublishController extends Controller
 {
