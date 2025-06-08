@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <x-header>
-            {{ __('Dashboard') }}
+            {{ __('Vote for a question') }}
         </x-header>
     </x-slot>
     <x-container>
