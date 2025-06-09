@@ -38,11 +38,13 @@
                         </x-table.td>
                         <x-table.td>
                             <x-form :action="route('question.publish', $question)" put>
-                                <button type="submit" class="houver:underline text-blue-500">Publicar</button>
+                                <button type="submit" class="houver:underline text-blue-500">Publish</button>
                             </x-form>
                             <x-form :action="route('question.destroy', $question)" delete>
                                 <button type="submit" class="houver:underline text-red-500">Delete</button>
                             </x-form>
+
+                            <a href="{{ route('question.edit', $question) }}" class="houver:underline text-blue-500">Edit</a>
                         </x-table.td>
                     </x-table.tr>
                 @endforeach
